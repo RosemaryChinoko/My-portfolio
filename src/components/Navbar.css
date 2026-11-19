@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: -0.03em;
+  color: var(--indigo);
+}
+
+.links {
+  display: flex;
+  gap: 1.75rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.links a:hover { color: var(--indigo); }
+
+@media (max-width: 720px) {
+  .links { display: none; }
+}
