@@ -1,0 +1,27 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.card { display: block; }
+
+.thumb {
+    border-radius: 999px 999px 24px 24px;
+    aspect-ratio: 4 / 4.4;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+.card:hover .thumb { transform: translateY(-6px); }
+
+.thumb-sky { background: var(--sky); }
+.thumb-amber {background: var(--amber); }
+.thumb-line { background: var(--line); }
+
+.card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-top: 0.25rem; 
+}
