@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 const projects = [
     {
         title: 'Cyber crime reporting app',
-        text: 'An app that makes it simple to report online crime',
+        text: 'An app that makes it simple to report online crime. I built it from idea to working product.',
         color: 'sky',
         href: 'https://github.com/RosemaryChinoko/yckf-app.git',
     },
