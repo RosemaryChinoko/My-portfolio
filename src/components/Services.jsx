@@ -19,8 +19,8 @@ const plans = [
     },
     {
         name: 'Custom',
-        blurb: 'Something special? Lets plan it.',
-        price: 'Lets talk',
+        blurb: 'Something special? Let’s plan it.',
+        price: 'Let’s talk',
         features: ['Bookings, shops or members', 'Built around your goals', 'Quote after a short call'],
         button: 'Get a quote',
     },
