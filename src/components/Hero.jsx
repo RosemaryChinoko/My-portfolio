@@ -1,4 +1,5 @@
 import './Hero.css'
+import portrait from '../assets/rosemary.png'
 
 function Hero() {
     return (
@@ -17,9 +18,8 @@ function Hero() {
                     </div>
                 </div>
 
-                <div className="arches" aria-hidden="true">
-                    <div className="arch arch-gold">My photo here</div>
-                    <div className="arch arch-indigo"></div>
+                <div className="portrait">
+                    <img src={portrait} alt="Portrait of Rosemary Chinoko" />
                 </div>
             </div>  
         </section>  

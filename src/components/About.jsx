@@ -14,7 +14,7 @@ function About(){
                     <h2>A little about me</h2>
                     <p className="muted">
                         I studied computer science and i love turning ideas into things
-                        people can use. I've built a cyber crime reporting app, and now I'm
+                        people can use. I have built mobile apps and websites, including during internships, and now I'm
                         bringing the same care to websites for businesses and creators. I'm 
                         just starting out, so every client gets my full attention. 
                     </p>

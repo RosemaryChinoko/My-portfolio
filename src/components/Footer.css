@@ -1,0 +1,21 @@
+.footer {
+    padding: 2rem 0 3rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer a:hover {
+    color: var(--indigo);
+}

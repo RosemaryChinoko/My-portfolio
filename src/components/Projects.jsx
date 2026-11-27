@@ -1,23 +1,31 @@
 import './Projects.css'
 import ProjectCard from './ProjectCard'
+import websitePicture from '../assets/Modern Portfolio Workspace Mockup.png'
+import sampleSite from '../assets/project-sample-site.jpg'
+import yourSite from '../assets/project-your-site.jpg'
+
 
 const projects = [
-    {
-        title: 'Cyber crime reporting app',
-        text: 'An app that makes it simple to report online crime. I built it from idea to working product.',
-        color: 'sky',
-        href: 'https://github.com/RosemaryChinoko/yckf-app.git',
-    },
+   
     {
         title: 'This website',
         text: 'Designed and built by me with React.',
         color: 'amber',
+        image: websitePicture,
         href: 'https://github.com/RosemaryChinoko/My-portfolio',
+    },
+    {
+        title: 'Sample site: coming soon',
+        text: 'A practice project for a made-up business. Built to show my skills.',
+        color: 'sky',
+        image: sampleSite,
+        href: '#',
     },
     {
         title:'Your project',
         text: 'i am taking my first clients. Lets build yours next.',
         color: 'line',
+        image:yourSite,
         href: '#contact',
     },
 ]
@@ -36,6 +44,7 @@ function Projects() {
                         title={project.title}
                         text={project.text}
                         color={project.color}
+                        image={project.image}
                         href={project.href}
                         />
                     ))}
